@@ -1,2 +1,2 @@
 # CalculoIMC
- Cálculo IMC
+ Página de cálculo IMC
