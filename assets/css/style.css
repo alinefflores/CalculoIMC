@@ -1,0 +1,104 @@
+:root{
+    --color6: #5a6a90;
+    --color5: #9096b8;
+    --color4: #b6becb;
+    --color3: #c7d3d6;
+    --color2: #e5e0ea;
+    --color1: #f3f3f3;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 0;    
+}
+
+body {
+    background-color: var(--color6);
+    margin: 0;
+    padding: 0;    
+}
+
+main {
+    background-color: var(--color4);
+    border-radius: 15px;
+    margin: 50px auto;
+    padding: 20px;    
+}
+
+.titulo {
+    color: var(--color6);
+    font-size: 30pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+.texto {
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 20px;    
+}
+
+.borda {
+    border-color: var(--color6); 
+    border-radius: 5px; 
+    display: block;
+    margin: 30px;
+    padding: 20px;    
+}
+
+.descricao {    
+    color: var(--color6);
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.campo {
+    border-radius: 2px;
+    border-color: var(--color6);
+    height: 30px;     
+}
+
+.botao {
+    background-color: var(--color6);
+    border: 2px solid var(--color5);
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 40px;
+    width: 100%;    
+}
+
+.limpar{
+    background-color: var(--color6);
+    border: 2px solid var(--color5);
+    border-radius: 2px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 10px;   
+}
+
+.botao:hover {
+    background-color: var(--color5);
+}
+
+.resultado {
+    color: var(--color6);
+    font-size: 25px;
+    padding-top: 20px;
+    text-align: center;      
+}
+
+.paragrafoResultado {
+    color: var(--color6);
+}
+
+.bad {
+    color: rgb(236, 152, 152);
+}
